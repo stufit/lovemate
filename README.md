@@ -95,3 +95,16 @@ docs/                    기획·샘플·ADR·검증 양식·구현 상태
 - 실제 운영 환경·분산 속도 제한·HTTPS/HSTS·백업·복구·정기 삭제·장애 알림 설정.
 
 참고: [설계서](docs/woorisai_lab_codex_spec.md), [리포트 샘플](docs/woorisai_lab_report_samples.md), [구현 결정](docs/adr/0001-local-mvp.md), [콘텐츠 검증 양식](docs/validation/phase-0.md).
+
+
+## 다음 단계: 첫 5쌍 사용 검증
+
+[진행 자료](docs/validation/phase-0.md)에 참가자 안내·진행자 과제·관찰 양식을 준비했습니다.
+
+```sh
+pnpm validation:init
+# 실제 관찰 후 .local-validation/records.json 수정
+pnpm validation:report
+```
+
+이 도구는 관찰 결과를 집계할 뿐 사용자를 모집하거나 실제 검증 결과를 생성하지 않습니다. 기록은 Git에서 제외하며, 모의 구매와 가격 의향을 실제 결제로 집계하지 않습니다. 원격 진행은 별도 테스트 배포 준비가 필요합니다.

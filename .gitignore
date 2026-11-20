@@ -11,3 +11,6 @@ test-results/
 .DS_Store
 
 next-env.d.ts
+
+# Private interview observations; never commit participant records.
+.local-validation/

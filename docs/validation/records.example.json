@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "pairId": "P01",
+      "status": "NOT_STARTED",
+      "understoodWithoutHelp": null,
+      "startedConversation": null,
+      "describedSpecificValue": null,
+      "similarAnswerCase": null,
+      "premiumIntention": "NOT_ASKED",
+      "accessMethod": "NONE",
+      "issues": []
+    },
+    {
+      "pairId": "P02",
+      "status": "NOT_STARTED",
+      "understoodWithoutHelp": null,
+      "startedConversation": null,
+      "describedSpecificValue": null,
+      "similarAnswerCase": null,
+      "premiumIntention": "NOT_ASKED",
+      "accessMethod": "NONE",
+      "issues": []
+    },
+    {
+      "pairId": "P03",
+      "status": "NOT_STARTED",
+      "understoodWithoutHelp": null,
+      "startedConversation": null,
+      "describedSpecificValue": null,
+      "similarAnswerCase": null,
+      "premiumIntention": "NOT_ASKED",
+      "accessMethod": "NONE",
+      "issues": []
+    },
+    {
+      "pairId": "P04",
+      "status": "NOT_STARTED",
+      "understoodWithoutHelp": null,
+      "startedConversation": null,
+      "describedSpecificValue": null,
+      "similarAnswerCase": null,
+      "premiumIntention": "NOT_ASKED",
+      "accessMethod": "NONE",
+      "issues": []
+    },
+    {
+      "pairId": "P05",
+      "status": "NOT_STARTED",
+      "understoodWithoutHelp": null,
+      "startedConversation": null,
+      "describedSpecificValue": null,
+      "similarAnswerCase": null,
+      "premiumIntention": "NOT_ASKED",
+      "accessMethod": "NONE",
+      "issues": []
+    }
+  ]
+}

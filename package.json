@@ -13,7 +13,9 @@
     "db:revert": "pnpm --filter @woorisai/api db:revert",
     "db:seed": "pnpm --filter @woorisai/api db:seed",
     "db:purge": "pnpm --filter @woorisai/api db:purge",
-    "format": "prettier --write apps packages tests *.ts *.json pnpm-workspace.yaml"
+    "format": "prettier --write apps packages tests *.ts *.json pnpm-workspace.yaml",
+    "validation:init": "node scripts/validation.mjs init",
+    "validation:report": "node scripts/validation.mjs report"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
