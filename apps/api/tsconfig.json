@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "dist",
+    "rootDir": "../..",
+    "sourceMap": true
+  },
+  "include": ["src", "../../packages/shared/src"],
+  "exclude": ["test"]
+}

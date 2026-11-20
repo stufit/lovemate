@@ -1,0 +1,36 @@
+{
+  "name": "@woorisai/api",
+  "private": true,
+  "version": "1.1.0",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsup",
+    "start": "node dist/main.js",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx src/db/cli.ts migrate",
+    "db:revert": "tsx src/db/cli.ts revert",
+    "db:seed": "tsx src/db/cli.ts seed",
+    "db:purge": "tsx src/db/purge.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.14",
+    "@nestjs/core": "^11.1.14",
+    "@nestjs/platform-express": "^11.1.14",
+    "@woorisai/shared": "workspace:*",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "pg": "^8.18.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "typeorm": "^0.3.28",
+    "zod": "^4.3.6",
+    "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/express": "^5.0.6",
+    "tsup": "^8.5.1"
+  }
+}
